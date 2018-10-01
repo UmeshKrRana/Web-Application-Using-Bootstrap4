@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Bootstrap Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	 
+	<link rel="stylesheet" type="text/css" href="css/newstyle.css">
+	
+</head>
+<body>
+	<div class="bgimg">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<div class="container">
+				<a href="" class="navbar-brand text-warning font-weight-bold">MY BOOTSTRAP</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+
+				<div class="collapse navbar-collapse " id="collapsenavbar">
+					<ul class="navbar-nav text-left ml-auto">
+						
+						<li class="nav-item"> 
+							<a href="" class="nav-link navmenu">ABOUT </a>
+						</li>
+						<li class="nav-item"> 
+							<a href="" class="nav-link navmenu">SERVICES </a>
+						</li>
+						<li class="nav-item"> 
+							<a href="" class="nav-link navmenu">PORTFOLIO </a>
+						</li>
+						<li class="nav-item"> 
+							<a href="" class="nav-link navmenu">TEAM </a>
+						</li>
+						<li class="nav-item"> 
+							<a href="" class="nav-link navmenu">CONTACT </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>  <!-- // navbar ends -->
+
+		<div class="container text-center headerset text-white">
+			<h2>Strive not to be a success, but rather to be of value.</h2>
+			<br/>
+			<h1>Our attitude towards others determines their attitude towards us.</h1>
+			<button class="btn btn-success text-white btn-lg">Read More</button>
+		</div>
+	</div>  <!-- header ends -->
+
+<!-- // services section -->
+	<section class="container text-center ourservices">
+		<h1>Services</h1>
+			<p>We are a brand builders – experts in big thinking, creative ideas and fresh technology solutions. </p>
+				<div class="row rowsetting">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+						<div class="imgsetting d-block m-auto bg-success">
+							<i class="fa fa-code fa-3x text-white"></i>
+						</div>
+						<h3>Web Development</h3>
+						<p>With our high Quality Web Development India Services, we are providing customized Web Development solution to the satisfaction of our clients across the globe ranging from start-ups to well established companies looking to for high quality web design services in India.</p>
+
+					</div> <!-- ending column -->
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+						<div class="imgsetting d-block m-auto bg-success">
+							<i class="fa fa-image fa-3x text-white"></i>
+						</div>
+						<h3>Creative Design</h3>
+						<p>We offer years of expertise that stands us apart to deliver ‘from concept to reality’ by developing responsive web portals, web-based software and web application solutions. We provide high quality designs at low costs. As you flip through the assorted projects handled by us.</p>
+
+					</div>   <!-- ending column -->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+						<div class="imgsetting d-block m-auto bg-success">
+							<i class="fa fa-mobile fa-3x text-white"></i>
+						</div>
+						<h3>Mobile App Development</h3>
+						<p>We serve clients with end to end customized web and mobile applications, built with specific business goals in mind. Irrespective of whether a client needs an application accessible only on Internet, or standalone applications that could be operated offline, we deliver both.</p>
+
+					</div>   <!-- ending column -->
+				</div>
+	</section>  <!-- // end services -->
+
+	<!-- Portfolio section -->
+
+	<section class="portfolio bg-light text-center">
+		<div class="container">
+			<h1 class="font-weight-bold port">Portfolio</h1>
+			<p>This is our portfolio section </p>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+						<div class="card mycard" >
+							<img src="img/portfolio/portfolio.png" class="card-img img-fluid">
+							<div class="card body">
+								<h4 class="card-title">Web Development </h4>
+									<p class="card-text">We provide such an amazing web development services. </p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+						<div class="card mycard">
+							<img src="img/portfolio/portfolio2.jpg" class="card-img img-fluid">
+								<div class="card body">
+									<h4 class="card-title">CMS Development </h4>
+										<p class="card-text">We provide such an amazing web development services. </p>
+								</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+						<div class="card">
+							<img src="img/portfolio/portfolio3.jpg" class="card-img img-fluid">
+								<div class="card body">
+									<h4 class="card-title">WordPress Development </h4>
+										<p class="card-text">We provide such an amazing web development services. </p>
+								</div>
+						</div>
+					</div>
+				</div>   <!-- end first row portfolio --->
+
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+						<div class="card mycard">
+							<img src="img/portfolio/portfolio4.jpg" class="card-img img-fluid">
+								<div class="card body">
+									<h4 class="card-title">Joomla Development </h4>
+										<p class="card-text">We provide such an amazing web development services. </p>
+								</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+						<div class="card">
+							<img src="img/portfolio/portfolio5.jpg" class="card-img img-fluid">
+								<div class="card body">
+									<h4 class="card-title">Angular Development </h4>
+										<p class="card-text">We provide such an amazing web development services. </p>
+								</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+						<div class="card">
+							<img src="img/portfolio/portfolio6.png" class="card-img img-fluid">
+							<div class="card body">
+								<h4 class="card-title">Python Development </h4>
+									<p class="card-text">We provide such an amazing web development services. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</div>
+		
+	</section>  <!-- portfolio section ends -->
+
+	<section class="ourteam">
+		<div class="container text-center">
+			<h1 class="font-weight-bold">Our Amazing Team</h1>
+			 <p>We have our amazing team </p>
+
+			 <div class="row teamsetting">
+			 	<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+			 		<figure class="figure">
+			 			<img src="img/team/1.jpg" class="img-fluid rounded-circle" style="height: 200px; width:200px;">
+			 				<figcaption>
+			 					<h4>John Michal </h4>
+			 						<p class="figure-caption">Web Developer </p>
+			 				</figcaption>
+			 		</figure>
+			 	</div>
+			 	<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+			 		<figure class="figure">
+			 			<img src="img/team/2.jpg" class="img-fluid rounded-circle text-center" style="height: 200px; width:200px;">
+			 					<h4>Richa Saxena </h4>
+			 						<p class="figure-caption">Software Developer </p>
+			 		</figure>
+			 	</div>
+			 	<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+			 		<figure class="figure">
+			 			<img src="img/team/3.jpg" class="img-fluid rounded-circle" style="height: 200px; width:200px;">
+			 				<h4>John Michal </h4>
+			 						<p class="figure-caption">Developer Team</p>
+			 		</figure>
+			 	</div>
+			 </div>
+		</div>
+	</section>  <!-- end team section -->
+
+	<!-- footer section  -->
+<footer class="footer" style="border:1px solid #fff;">
+	<div class="container-fluid footerrow">
+		<div class="row ">
+			<div class="col-lg-3 col-md-3 col-sm-10 col-10">
+				<h5 class="text-white font-weight-bold d-block ml-auto">About us </h5>
+					<p>We are a brand builders – experts in big thinking, creative ideas and fresh technology solutions. With our high Quality Web Development India Services, we are providing customized Web Development solution to the satisfaction of our clients across the globe ranging from start-ups to well established companies looking to for high quality web design services in India. </p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-10 col-10">
+				<h5 class="text-white font-weight-bold d-block ml-auto">Quick Navigation </h6>
+					<li class="nav-link">
+						<a href="" class="nav-item">About Us </a>
+					</li>
+					<li class="nav-link">
+						<a href="" class="nav-item">Contact </a>
+					</li>
+					<li class="nav-link">
+						<a href="" class="nav-item">Privacy Policy </a>
+					</li>
+					<li class="nav-link">
+						<a href="" class="nav-item">Disclaimer </a>
+					</li>
+					<li class="nav-link">
+						<a href="" class="nav-item">Write for us </a>
+					</li>
+
+
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-10 col-10">
+				<h5 class="text-white font-weight-bold d-block ml-auto">Social Connects </h5>
+					<li class="nav-link">
+						<a href="" class="nav-item"><i class="fa fa-facebook fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-twitter fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-google-plus fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-linkedin fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-reddit fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-tumblr fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-yahoo fa_icons"></i></a>
+						<a href="" class="nav-item"><i class="fa fa-youtube fa_icons"></i></a>
+					</li>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-10 col-10">
+				<h5 class="text-white font-weight-bold d-block ml-auto">Subscribe Our Newsletter</h5>
+					<form class="form-horizontal">
+						
+						<div class="form-group">
+							<input class="form-control" placeholder="Enter Your Email... " type="email" name="" required="required">
+						</div>
+
+						<div class="form-group">
+							<input class="btn btn-success form-control" type="submit" name="subscribe" value="Subscribe">
+						</div>
+					</form>
+			</div>
+
+		</div>	
+	</div>
+
+		<h6 class="text-center">Copyright &copy; 2018. All Rights Reserved. </h6>
+	</footer>
+
+
+</body>
+</html>
